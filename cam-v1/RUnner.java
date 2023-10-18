@@ -2,8 +2,9 @@ import javax.swing.*;
 public class RUnner {
     public RUnner(){
         VirtualPet p = new VirtualPet();
-        p.change("annoyed", "leave me alone");
-        p.choose("test");
+        p.start();
+
+
 
 //        String ans = gR("how was your day going");
 //        System.out.println(ans); //can you see this?
